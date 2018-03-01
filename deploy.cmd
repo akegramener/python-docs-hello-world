@@ -96,10 +96,10 @@ exit /b 1
 endlocal
 
 echo Installing Python 3.5 wheels (hope you installed the Python 3.5.4 extension!)
-D:\home\python354x64\python.exe -m pip install --upgrade %NUMPY_WHEEL%
-D:\home\python354x64\python.exe -m pip install --upgrade %SCIPY_WHEEL%
-D:\home\python354x64\python.exe -m pip install --upgrade %CNTK_WHEEL%
-D:\home\python354x64\python.exe -m pip install --upgrade pillow
-D:\home\python354x64\python.exe -m pip install --upgrade flask
+D:\home\python341x64\python.exe -m pip install --upgrade %NUMPY_WHEEL%
+D:\home\python341x64\python.exe -m pip install --upgrade %SCIPY_WHEEL%
+D:\home\python341x64\python.exe -m pip install --upgrade %CNTK_WHEEL%
+D:\home\python341x64\python.exe -m pip install --upgrade pillow
+D:\home\python341x64\python.exe -m pip install --upgrade flask
 
 echo Finished running custom deploy command successfully.
